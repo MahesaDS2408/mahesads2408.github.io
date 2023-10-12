@@ -57,6 +57,7 @@ theme = "FeelIt"
   images = ["/logo.png"]
   # {{< version 1.0.0 >}} whether to enable CSS and JS source mapping
   SourceMap = false
+  
 
   # {{< version 1.0.1 >}}PWA config
   [params.pwa]
@@ -327,7 +328,7 @@ theme = "FeelIt"
     # {{< version 1.0.0 >}} whether to use the fontawesome as cdn source
     cdnfontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     # {{< version 1.0.0 >}} whether to show link to improve the article
     improveArticle = ""
     # {{< version 0.2.4 >}} whether to show the full text content in RSS
